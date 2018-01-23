@@ -1,0 +1,117 @@
+<h3>Teams Component</h3>
+<p>Teams Form</p>
+
+<div class="container">
+			<div class="row main">
+				<div class="main-login main-center">
+				
+					<form class="" method="post" action="#">
+						
+						<div class="form-group">
+							<label for="teamfounders" class="cols-sm-2 control-label">Team Founder(s)</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="teamfounders" id="teamfounders"  placeholder="Enter name(s) of Teams Founder(s)"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="teamlead" class="cols-sm-2 control-label">Team Lead</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="teamlead" id="teamlead"  placeholder="Enter name of Team Lead"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="teammembers" class="cols-sm-2 control-label">Team Members</label>
+							<div class="cols-sm-10">
+								<small id="fileHelp" class="form-text text">Please separate member names with commas followed by spaces.</small>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="teammembers" id="teammembers"  placeholder="Enter names of Team Members"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-check">
+						  <label class="form-check-label">
+						    <input type="checkbox" class="form-check-input">
+						    Need Members?
+						  </label>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Your Email</label>
+							<div class="cols-sm-10">
+								<small id="fileHelp" class="form-text text">Preferred Email</small>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="skillsreq" class="cols-sm-2 control-label">Skills Required</label>
+							<div class="cols-sm-10">
+								<small id="fileHelp" class="form-text text">Please separate skills with commas followed by spaces.</small>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="skillsreq" id="skillsreq"  placeholder="Enter skills required"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+						    <label for="projdescription">Project Description</label>
+						    <small id="fileHelp" class="form-text text"><br>Enter a brief description of your project.</small>
+						    <textarea class="form-control" id="projdescription" rows="3"></textarea>
+						  </div>
+						
+						<div class="form-group">
+							<label for="mentor" class="cols-sm-2 control-label">Mentor (only if you have one)</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-graduation-cap fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="mentor" id="mentor"  placeholder="Enter the name of your Mentor"/>
+								</div>
+							</div>
+						</div>
+
+						 <div class="form-group">
+						    <label for="projstatus">Project Status</label>
+						    <select class="form-control" id="projstatus">
+						      <option>Idea</option>
+						      <option>Prototype</option>
+						      <option>Production</option>
+						    </select>
+						 </div>
+
+						   <div class="form-group">
+						    <label for="elevatorpitch">Elevator Pitch</label>
+						    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+						    <small id="elevatorpitchhelp" class="form-text">Upload an elevator pitch of your product, preferably in video format.</small>
+						  </div>
+
+						<!-- <div class="form-group ">
+							<a href="index.html" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Join</a>
+						</div> -->
+
+						<div class="form-group ">
+							<input type="submit" value="Submit" id="button" class="btn btn-primary btn-lg btn-block login-button">
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+
+		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>

@@ -1,0 +1,163 @@
+<h3>Members Component</h3>
+<p>Members Form</p>
+
+	<div class="container">
+			<div class="row main">
+				<div class="main-login main-center">
+				
+					<form class="" method="post" action="#">
+						
+						<div class="form-group col-xs-6">
+							<label for="firstname" class="cols-sm-2 control-label">Your First Name</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="firstname" id="firstname"  placeholder="Enter your First Name"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="lastname" class="cols-sm-2 control-label">Your Last Name</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="lastname" id="lastname"  placeholder="Enter your Last Name"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="studentid" class="cols-sm-2 control-label">Your Student ID</label>
+							<div class="cols-sm-10">
+								<small id="fileHelp" class="form-text text">SJSU Student ID only</small>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="studentid" id="studentid"  placeholder="Enter your Student ID"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Your Email</label>
+							<div class="cols-sm-10">
+								<small id="fileHelp" class="form-text text">Preferred Email</small>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="major" class="cols-sm-2 control-label">Major</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="major" id="major"  placeholder="Enter your Major"/>
+								</div>
+							</div>
+						</div>
+
+						<fieldset class="form-group" id="yearalign">
+						  <!-- <span class="input-group-addon col-xs-1"><i class="fa fa-users fa" aria-hidden="true"></i></span> -->
+						   <label for="year" class="cols-sm-2 control-label">Year</label>
+						   <div class="form-check">
+						     <label class="form-check-label">
+						     <small id="fileHelp" class="form-text text">Please Select One<br></small>
+						       <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						        Freshman
+						     </label>
+						   </div>
+						   <div class="form-check">
+						   <label class="form-check-label">
+						       <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+						        Sophomore
+						     </label>
+						   </div>
+						   <div class="form-check">
+						   <label class="form-check-label">
+						       <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option2">
+						        Junior
+						     </label>
+						   </div>
+						   <div class="form-check">
+						   <label class="form-check-label">
+						       <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" value="option2">
+						        Senior
+						     </label>
+						   </div>
+						   <div class="form-check">
+						   <label class="form-check-label">
+						       <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios5" value="option2">
+						        Graduate
+						     </label>
+						   </div>
+						   <!-- <div class="form-check disabled">
+						   	 <label class="form-check-label">
+						        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+						       Option three is disabled
+						     </label>
+						   </div> -->
+						 </fieldset>
+
+						 <div class="form-group">
+							<label for="gradyear" class="cols-sm-2 control-label">Graduation Year</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-graduation-cap fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="gradyear" id="gradyear"  placeholder="Enter your Graduation Year"/>
+								</div>
+							</div>
+						</div>
+
+						  <div class="form-group">
+						    <label for="beneficial">What tools would be beneficial to your projects?</label>
+						    <small id="fileHelp" class="form-text text"><br>Please list!</small>
+						    <textarea class="form-control" id="beneficial" rows="3"></textarea>
+						  </div>
+
+						  <div class="form-group">
+						    <label for="goal">What is your goal?</label>
+						    <small id="fileHelp" class="form-text text"><br>Create your own startup, land a job, just practice what you know, etc.</small>
+						    <textarea class="form-control" id="goal" rows="3"></textarea>
+						  </div>
+
+						  <div class="form-group">
+						    <label for="comments">Comments</label>
+						    <small id="fileHelp" class="form-text text"><br>Any questions or comments? Please share.</small>
+						    <textarea class="form-control" id="comments" rows="3"></textarea>
+						  </div>
+
+						  <div class="form-group">
+							  <legend>Thank you for being a part of IDEAS</legend>
+							  <label for="comments">We would like to share this information with our current paid members (students like yourself), partners and mentors (possible employers and fund-ers).</label>
+							    <small id="fileHelp" class="form-text text"><br>Nothing will be shared without your consent. We recommend sharing to enhance your networking experience.</small>
+							      <div class="form-group col-xs-4">
+								    <!-- <label for="exampleSelect1">Example select</label> -->
+								    <select class="form-control" id="exampleSelect1">
+								      <option>YES, Please Share!</option>
+								      <option>NO, Do Not Share!</option>
+								    </select>
+								  </div>
+						  </div>
+
+						  <br>
+
+						<!-- <div class="form-group ">
+							<a href="index.html" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Join</a>
+						</div> -->
+
+						<div class="form-group ">
+							<input type="submit" value="Submit" id="button" class="btn btn-primary btn-lg btn-block login-button">
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+
+		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>

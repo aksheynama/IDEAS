@@ -1,0 +1,6 @@
+<h3>Team Table Component</h3>
+<p>This is the team table component!</p>
+
+     <input #search class="search" type="text" placeholder="Search..." (keydown.enter)="onSearch(search.value)">
+    <ng2-smart-table [settings]="settings" [source]="source"></ng2-smart-table>
+
